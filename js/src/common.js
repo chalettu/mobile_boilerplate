@@ -29,3 +29,33 @@ function getTemplate(template_dir,template_file)
 	return template;
 	
 }
+
+function sendData(ajaxUrl,data,callbackfn,requestType)
+{	
+	  if(requestType == null) {
+		  requestType='get';
+	  }
+	//if (online_status=='online')
+	{
+		
+	$.jsonp({
+  url: ajaxUrl+'?callback=?',
+  data:data,
+  timeout:5000,
+  success:function (json, textStatus) {
+	eval(callbackfn+'(json)');
+  },
+  
+  error:function (xOptions, textStatus) {
+	 // console.log(textStatus);
+	 var msg="An error has occured.  Please try your request later";
+//	showError(msg);
+	}
+	});
+		
+	}
+	else
+	{
+	
+	}
+}
