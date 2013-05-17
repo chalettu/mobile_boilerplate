@@ -21,12 +21,13 @@ head.load("css/jquery.mobile-1.3.1.min.css");
 
 head.js(
 	{handlebars :h_runtime },
+	{quo : 'js/libs/quo.js'},
     {jquery : 'js/libs/jquery-2.0.0.min.js'},
     {jqmr : 'js/libs/jquery.mobile.router.min.js'},
     {jqm : 'js/libs/jquery.mobile-1.3.1.min.js'},
     {lawnchair : 'js/libs/lawnchair-0.6.1.min.js'},
     {jsonp : 'js/libs/jquery.jsonp.js'},
-    //{quo : 'js/libs/quo.js'},
+    
     {common :'js/src/common.js'}
 );
 

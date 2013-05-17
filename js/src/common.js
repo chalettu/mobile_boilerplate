@@ -36,7 +36,7 @@ function sendData(ajaxUrl,data,callbackfn,requestType)
 		  requestType='get';
 	  }
 	//if (online_status=='online')
-	{
+	//{
 		
 	$.jsonp({
   url: ajaxUrl+'?callback=?',
@@ -53,9 +53,5 @@ function sendData(ajaxUrl,data,callbackfn,requestType)
 	}
 	});
 		
-	}
-	else
-	{
 	
-	}
 }
