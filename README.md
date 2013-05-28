@@ -21,10 +21,13 @@ QuoJS 2.3.0 http://quojs.tapquo.com/
 Folder Structure 
 ==================
 css (This is where all CSS goes)
+
 js
 	/libs (App Libraries go here)
+	
 	/src (Templates and JS Page control logic goes here)
-	   /templates (This is where your handlebar templates go)
+	
+	/templates (This is where your handlebar templates go)
 	  
 	  
 Important files
