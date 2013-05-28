@@ -27,6 +27,7 @@ head.js(
     {jqm : 'js/libs/jquery.mobile-1.3.1.min.js'},
     {lawnchair : 'js/libs/lawnchair-0.6.1.min.js'},
     {jsonp : 'js/libs/jquery.jsonp.js'},
+    {parsley : 'js/libs/parsley.min.js'},
     
     {common :'js/src/common.js'}
 );
